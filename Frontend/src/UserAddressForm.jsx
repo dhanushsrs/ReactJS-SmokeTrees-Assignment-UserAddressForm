@@ -10,7 +10,7 @@ const UserAddressForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const url = "http://localhost:8000/register";
+    const url = "https://useraddressform-backend.onrender.com/register";
 
     try {
       const response = await fetch(url, {
